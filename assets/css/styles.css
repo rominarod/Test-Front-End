@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* header */
+
+.header-d {
+	position: absolute;
+    top: auto;
+    left: -160px;
+}
+
+.header-left {
+
+	position: absolute;
+	width: 1920px;
+	height: 80px;
+	left: 341px;
+	top: 16px;
+
+	background: #FFF;
+
+}
+
+/* site-logo-corebiz-preto-cinza */
+
+.site-logo-d {
+	position: absolute;
+	width: 181px;
+	height: 41px;
+	
+}
+
+
+/* Busca */
+
+.search-bar-d {
+	position: absolute;
+	width: 718px;
+	height: 23px;
+	left: 643px;
+	top: 28px;
+
+}
+
+.search-bar-d .text-busca {
+	position: absolute;
+	width: 223.38px;
+	height: 12px;
+	left: 0;
+	top: 0;
+
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	border-style: none;
+	color: #7A7A7A;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.search-bar-d .icon-search {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 697px;
+	top: 0;
+	border-style: none;
+    background-color: #FFF;
+}
+
+.search-line {
+	position: absolute;
+	width: 718px;
+	height: 0px;
+	left: 643px;
+	top: 51px;
+
+	border: 1px solid #7A7A7A;
+}
+
+/* Minha Conta */
+
+.header-right-user {
+	position: absolute;
+	width: 97px;
+	height: 20px;
+	left: 1404px;
+	top: 31px;
+}
+
+.header-right-user .icon-user {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 1px;
+	top: 1px;
+}
+
+.user-name {
+	position: absolute;
+	width: 74px;
+	height: 18px;
+	left: 24px;
+    top: 1px;
+
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	/* identical to box height */
+
+
+	color: #7A7A7A;
+
+}
+
