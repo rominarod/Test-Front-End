@@ -1,1 +1,29 @@
- 
+:root {
+
+ /*paragraph & headlines*/
+	
+	--h1-font-size: 50px;
+	--h2-font-size: 30px;
+	--h3-font-size: 22px;
+	--h4-font-size: 18px;
+	--h5-font-size: 16px;
+	--p-font-size: 13px;
+
+	--h-text-color: #FFF;
+	--h3-text-color: #000;
+	--p-text-color: #7A7A7A;s
+	
+	--h-font-family: 'Nunito', sans-serif;
+	--h3-font-family: 'Lato', sans-serif;
+	--p-font-family: 'Nunito', sans-serif;
+
+/*Buttons*/
+
+	--button-font-family: 'Nunito', sans-serif;
+	--button-active-text-color: #FFF;
+	--button-text-size: 12px;
+	--button-background-color: #000;
+
+}
+
+

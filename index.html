@@ -1,65 +1,288 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Corebiz - Front-End Challenge</title>
-	
-<!-- Google Fonts -->
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
-<!-- /Google Fonts  -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Corebiz - Front-End Challenge</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://use.typekit.net/rkb1cgc.css">
+    <!-- Fonts  -->
+    <!--Styles -->
+    <link rel="stylesheet" href="./assets/css/main-styles.css">
+    <!-- /Styles -->
+    <!-- JS scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- /JS scripts  -->
 
-<!--Styles -->
-	<link rel="stylesheet" href="./assets/css/styles.css">
-<!-- /Styles -->
-
-<!-- JS scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- /JS scripts  -->
 <body>
-<!-- /header -->
-	<header>
-		<nav class="header-d header-m">
-		
-			<div class="header-left">
-				<a class="site-logo-d site-logo-m" href="#" title="site-logo">
-					<img src="./assets/content/logo/site-logo-corebiz.svg" alt="Corebiz site logo">
-				</a>
-			</div>
+    <!-- /header -->
+    <header>
+        <nav class="header-container">
+        	<div class="header-menu-mobile">
+        		<a href="#" title="">
+        			<img src="./assets/content/images/Icon-menu-ham.svg" alt="menu mobile">
+        		</a>
+        	</div>
+            <div class="header-logo">
+                <a href="#" title="site-logo">
+                    <img src="./assets/content/logo/site-logo-corebiz.svg" alt="Corebiz site logo">
+                </a>
+            </div>
+            <div class="search-container">
+                <div class="search-line"></div>
+                <div class="search-input-container">
+                    <form>
+                        <input type="text" name="input-search" placeholder="O que está procurando?" class="text-busca">
+                        <button type="submit" class="icon-search">
+                            <img src="./assets/content/images/busca.svg" alt="icon-busca">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="nav-user-container">
+                <a class="icon-user" href="#" title="nav user">
+                    <img src="./assets/content/images/icon-user.svg" alt="icon-user-img">
+                </a>
+                <p class="user-name">Minha conta</p>
+            </div>
+            <div class="mini-cart-container">
+                <a href="#" title="cart-icon">
+                    <img src="./assets/content/images/cart-icon.svg" alt="Corebiz site logo" class="mini-cart-icon">
+                    <div class="cart-badge-ellipse">
+                        <div class="cart-badge-number">1</div>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- /header -->
 
-			<div class="search-line"></div>
+    <!-- Banner Hero -->
+    <section class="main-hero">
+        <div>
+            <a href="#" title="banner hero"></a>
+            <img src="./assets/content/images/banner-img.png" alt="main banner" class="banner-desktop">
+            <img src="./assets/content/images/banner-mobile.png" alt="main banner" class="banner-mobile">
+            <div class="banner-m-blend"></div> 
+            
+            <div class="texto-hero">
+                <h2>Olá, o que você está buscando?</h2>
+                <h1>Criar ou migrar seu e-commerce?</h1>
+            </div>
+            <div class="hero-slider">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </div>
+    </section>
+    <!-- /Banner Hero -->
+
+    <!-- Product slider  -->
+    <section class="product-slider-container">
+        <div class="mais-vendidos">
+            <h4>Mais Vendidos</h4>
+            <div class="prataleira-title-line"></div>
+        </div>
+        <div class="prataleira-slider">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+        </div>
+        <div class="arrows-slider">
+            <a href="#" title="arrow-l" class="left-arrow">
+                <img src="./assets/content/images/left-arrow.png" alt="left-Arrow">
+            </a>
+            <a href="#" title="arrow-r" class="right-arrow">
+                <img src="./assets/content/images/right-arrow.png" alt="right-Arrow">
+            </a>
+        </div>
+
+    <div class="products-boxes">
+        <div class="product-box1">
+            <div class="product-img">
+               	<img src="" alt="">
+            </div>
+            <div class="hover-rectangle">
+                <div class="product-title-rating">
+                    <div class="product-title">
+                        <h3>product-title</h3>
+                    </div>
+                    <div class="star">
+                        <img src="./assets/content//images/Rating1.png" alt="">
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h4>por R$ 259,90</h4>
+                </div>
+                <div class="price-installments">
+                    <p>ou em 4x de R$ 48,75</p>
+                </div>
+                <div>
+                	<button class="comprar-btn" type="button">
+						COMPRAR
+					</button>                       
+                </div>        
+            </div>
+        </div>
+        
+        <div class="product-box2">
+            <div class="product-img">
+               	<img src="" alt="">
+            </div>
+            <div class="hover-rectangle">
+                <div class="product-title-rating">
+                    <div class="product-title">
+                        <h3>product-title</h3>
+                    </div>
+                    <div class="star">
+                        <img src="./assets/content//images/Rating1.png" alt="">
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h4>por R$ 259,90</h4>
+                </div>
+                <div class="price-installments">
+                    <p>ou em 4x de R$ 48,75</p>
+                </div>
+                <div>
+                	<button class="comprar-btn" type="button">
+						COMPRAR
+					</button>                       
+                </div>        
+            </div>
+        </div>
+        <div class="product-box3">
+            <div class="product-img">
+               	<img src="" alt="">
+            </div>
+            <div class="hover-rectangle">
+                <div class="product-title-rating">
+                    <div class="product-title">
+                        <h3>product-title</h3>
+                    </div>
+                    <div class="star">
+                        <img src="./assets/content//images/Rating1.png" alt="">
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h4>por R$ 259,90</h4>
+                </div>
+                <div class="price-installments">
+                    <p>ou em 4x de R$ 48,75</p>
+                </div>
+                <div>
+                	<button class="comprar-btn" type="button">
+						COMPRAR
+					</button>                       
+                </div>     
+            </div>
+        </div>
+        <div class="product-box4">
+        	<div class="product-img">
+               	<img src="" alt="">
+            </div>
+            <div class="hover-rectangle">
+                <div class="product-title-rating">
+                    <div class="product-title">
+                        <h3>product-title</h3>
+                    </div>
+                    <div class="star">
+                        <img src="./assets/content//images/Rating1.png" alt="">
+                    </div>
+                </div>
+                <div class="product-price">
+                    <h4>por R$ 259,90</h4>
+                </div>
+                <div class="price-installments">
+                    <p>ou em 4x de R$ 48,75</p>
+                </div>
+                <div>
+                	<button class="comprar-btn" type="button">
+						COMPRAR
+					</button>                       
+                </div>        
+            </div>    
+        </div>
+     
+    </section>
+    <!-- /Product slider  -->
+
+    <!-- NEWS -->
+	<section class="news">
+		<div class="news-container">
+			<h2>Participe de nossas news com promoções e novidades!</h2>
+			<form class="campos-news" >
+
+				<input type="text" name="" value="" class="campos-off input-name" placeholder="Digite seu nome" required>
+				<label class="name-label" for="input">Preencha com seu nome completo</label>
 			
-			<div>
-			<form class="search-bar-d">
-				<input type="search" name="input-search" placeholder="O que está procurando?" class="text-busca">					
-					<button type="submit" class="icon-search">
-						<img src="./assets/content/images/busca.svg" alt="icon-busca">
-					</button>
+
+				<input type="email" name="" value="" class="campos-off input-email" placeholder="Digite seu email" required>
+				<label class="email-label" for="input">Preencha com um e-mail válido</label>
+				<input type="button" name="submit" value="Eu quero!" class="news-btn" disabled="disabled"></input>
+				
 			</form>
-			</div>
 			
-			<div class="header-right-user">
-				<a class="icon-user" href="#" title="nav user">
-					<img src="./assets/content/images/icon-user.svg" alt="icon-user-img">
-				</a>
-				<h3 class="user-name">Minha conta</h3>
-			</div>
+		</div>
+		 
+	</section>
+	<!-- /NEWS -->
 
-			<div class="user-name"></div>
+	<!-- Footer -->
+    <footer>
+    	<div class="location">
+    		<h2>Localização</h2>
+    		<div class="line-locat" ></div>
+    		<div class="location-data">
+    			<p>Avenida Andrômeda, 2000. Bloco 6 e 8</p>
+	    		<p>Alphavile SP</p>
+	    		<p>brasil@corebiz.ag</p>
+	    		<p>+ 55 11 3090 1039</p>
+	    	</div>
+    	</div>
 
-		</nav>
-		
-	</header>
-<!-- /header -->
+    	<div class="footer-btns">
+			<button type="button" class="btn-contact">
+				<img src="./assets/content/images/Iconsobre.png" alt="sobre contacto">
+				<h3>ENTRE EM CONTATO</h3>
+			</button>    		
+			<button type="button" class="btn-contact-2">
+				<img src="./assets/content/images/Iconheadphones.png" alt="headphones">
+				<h3>FALE COM O NOSSO CONSULTOR ONLINE</h3>
+			</button>    					
+    	</div>
+
+    	<div class="logos-footer">
+    		  <div class="logo-corebiz">
+    		  	<p>Created by</p>
+    		  	<a href="#" title="" target="blank"><img src="./assets/content/logo/logo-corebiz-preto-cinza-blanco.png" alt="logo Corebiz"></a>
+    		  </div>
+    		  <div class="logo-vtex">
+    		  	<p>Powered by</p>
+    		  	<a href="#" title="" target="blank"><img src="./assets/content/images/Vector-vtex.png" alt="logo Corebiz"></a>
+    		  </div>
+    	</div>
+
+    	
+    </footer>
+
+    <div class="bottom-line"></div>
+
+    <!-- /Footer -->
+
+    <!-- JS scripts -->
+    <script src="assets/js/scripts.js" type="text/javascript" charset="utf-8" async defer></script>
+    <!-- /JS scripts -->
 
 
-
-
-
-
-<!-- JS scripts -->
-	<script src="assets/js/scripts.js" type="text/javascript" charset="utf-8" async defer></script>
-<!-- /JS scripts -->
 
 </body>
+
 </html>
