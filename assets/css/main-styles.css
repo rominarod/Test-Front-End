@@ -1,0 +1,3 @@
+@import "./mobile/mobile.css" screen and (max-width: 320px);
+
+@import "./desktop/desktop.css" screen and (min-width: 321px);
